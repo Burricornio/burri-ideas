@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "noImplicitAny": false,
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
@@ -9,6 +10,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
